@@ -1,0 +1,36 @@
+*{
+   margin-top: 10px;
+   margin-left: 20px;
+   
+}
+
+#search{
+    font-size: .9rem;
+    font-weight: bolder;
+    background-color: white;
+    border:1px solid;
+    border-radius: 40px;
+    border-color: rgb(6, 185, 147);
+    width: 150px;
+    height: 30px;
+    color: rgb(6, 185, 147);
+    
+}
+#plus{
+    border-radius: 50%;
+    background-color: rgb(52, 226, 168);
+    color: white;
+    border: aquamarine;
+    width: 30px;
+    height: 30px;
+    font-weight:200;
+}
+
+#create{
+    background-color: cornflowerblue;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    box-shadow: 5px 5px 5px black;
+}

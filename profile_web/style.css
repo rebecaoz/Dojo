@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+.nav{
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+}
+.nav-title{
+    flex: .9;
+    text-align: right;
+}
+.nav-links{
+    display: flex;
+    flex: 2;
+}
+.nav-links li{
+    list-style: none;
+    margin-right: 5%;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color:deepskyblue;
+    color: white;
+    border: 3px solid black;
+    padding: 10px;
+    box-shadow: 5px 5px black;
+    font-size: 1rem;
+    margin-right: 15%;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 70%;
+}
+.container-info{
+    flex: 2;
+    
+    margin-right: 10px;
+}
+.info, .education, .requests, .ur-conections{
+    border: 2px solid gray;
+    margin-bottom: 30px;
+}
+.text{
+    margin: 20px;
+    display: flex;
+    height: 180px;
+}
+.header-blue{
+    background-color:cadetblue;
+    height: 80px;
+    margin-bottom:30px; 
+}
+.foto_perfil{
+    position: relative; 
+    bottom: 70px;
+    height: 80px;
+    border-radius: 50%;
+}
+.name-ubi{
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 150px;
+   margin-top: 10px;
+}
+.ubicacion, .edit-profile{
+    display: flex;
+    align-items: center;
+}
+.info-profile p:first-child{
+    margin-bottom: 5px;
+}
+.education .info-profile p:nth-child(2){
+    color: gray;
+}
+.name-ubi img{
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+}
+.header-black{
+    background-color: #373737;
+    height: 10px;
+    margin-bottom:10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.text-education{
+    margin: 20px;
+    display: flex;
+}
+
+.conections{
+    flex: 1;
+    margin-left: 20px;
+}
+.conectionCount, .urConectionCount{
+    margin-right: 10px;
+    background-color: grey;
+    color: black;
+    width: 10%;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+}
+.friends{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.friends img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.friends p{
+    flex: 2;
+}

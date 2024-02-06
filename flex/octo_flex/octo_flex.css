@@ -1,0 +1,46 @@
+
+body{
+    background-color: gray;
+}
+#title{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.container{
+    margin: 10px;
+
+}
+
+img {
+    height: 200px;
+    
+    width: 150px;
+}
+
+#div1{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#div2{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#div3{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
