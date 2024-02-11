@@ -10,16 +10,16 @@
     <div class="nav">
         <h1 class="nav-title">DojoWeather</h1>
         <ul class="nav-links">
-            <li><a href="#">Burbank</a></li>
-            <li><a href="#" class="">Chicago</a></li>
-            <li><a href="#">Dallas</a></li>
+            <li><a href="#" onclick="alert(message)">Burbank</a></li>
+            <li><a href="#" onclick="alert(message)">Chicago</a></li>
+            <li><a href="#" onclick="alert(message)">Dallas</a></li>
         </ul>
     </div>
     <div class="city">
         <h2>San Jose</h2>
-        <div>
+        <div class="selectScale">
             <p>show temperature in</p>
-            <select name="grados" id="grados">
+            <select name="grados" id="grados" onchange="changeTemp(this)">
                 <option value="C">°C</option>
                 <option value="F">°F</option>
             </select>
@@ -31,8 +31,8 @@
             <img src="./assets/assets/some_clouds.png" alt="">
             <p>some rain</p>
             <div class="temp">
-                <p>24°</p>
-                <p>18°</p>
+                <p class="max">24°</p>
+                <p class="min">18°</p>
             </div>
         </div>
         <div class="clima">
@@ -40,8 +40,8 @@
             <img src="./assets/assets/some_clouds.png" alt="">
             <p>some rain</p>
             <div class="temp">
-                <p>24°</p>
-                <p>18°</p>
+                <p class="max">14°</p>
+                <p class="min">8°</p>
             </div>
         </div>
         <div class="clima">
@@ -49,8 +49,8 @@
             <img src="./assets/assets/some_clouds.png" alt="">
             <p>some rain</p>
             <div class="temp">
-                <p>24°</p>
-                <p>18°</p>
+                <p class="max">10°</p>
+                <p class="min">7°</p>
             </div>
         </div>
         <div class="clima">
@@ -58,10 +58,19 @@
             <img src="./assets/assets/some_clouds.png" alt="">
             <p>some rain</p>
             <div class="temp">
-                <p>24°</p>
-                <p>18°</p>
+                <p class="max">16°</p>
+                <p class="min">9°</p>
             </div>
         </div>
+        
+    </div>
+    <div class="cookie">
+        <img src="./assets/assets/cookie.png" alt="">
+        <div class="cookie-text">
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more</a></p>
+        </div>
+        <button class="btn" onclick="deleteCookie()">I accept</button>
     </div>
     <script src="./script.js"></script>
 </body>
